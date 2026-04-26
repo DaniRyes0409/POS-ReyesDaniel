@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; script-src 'self';">
+  <title>Aroma Cafe</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <!-- Custom Title Bar -->
+  <div id="titlebar">
+    <div class="titlebar-drag">
+      <div class="titlebar-logo">
+        <span class="logo-icon">☕</span>
+        <span class="logo-text">Aroma Cafe</span>
+      </div>
+    </div>
+    <div class="titlebar-controls">
+      <button id="btn-minimize" class="titlebar-btn" title="Minimizar">
+        <svg width="12" height="12" viewBox="0 0 12 12"><rect y="5" width="12" height="2" fill="currentColor"/></svg>
+      </button>
+      <button id="btn-maximize" class="titlebar-btn" title="Maximizar">
+        <svg width="12" height="12" viewBox="0 0 12 12"><rect x="1" y="1" width="10" height="10" stroke="currentColor" stroke-width="1.5" fill="none"/></svg>
+      </button>
+      <button id="btn-close" class="titlebar-btn btn-close" title="Cerrar">
+        <svg width="12" height="12" viewBox="0 0 12 12"><path d="M1 1L11 11M11 1L1 11" stroke="currentColor" stroke-width="1.5"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- App Container -->
+  <div id="app">
+    <!-- Views will be injected here -->
+  </div>
+
+  <!-- Scripts -->
+  <script src="renderer/components/modal.js"></script>
+  <script src="renderer/components/sidebar.js"></script>
+  <script src="renderer/components/ticket.js"></script>
+  <script src="renderer/views/login.js"></script>
+  <script src="renderer/views/pos.js"></script>
+  <script src="renderer/views/dashboard.js"></script>
+  <script src="renderer/views/products.js"></script>
+  <script src="renderer/views/expenses.js"></script>
+  <script src="renderer/views/sales.js"></script>
+  <script src="renderer/views/users.js"></script>
+  <script src="renderer/app.js"></script>
+</body>
+</html>

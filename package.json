@@ -1,0 +1,19 @@
+{
+  "name": "cafeteria-manager",
+  "version": "1.0.0",
+  "description": "Sistema de gestión para cafetería - Punto de venta y administración",
+  "main": "main.js",
+  "scripts": {
+    "start": "node start-electron.js",
+    "dev": "node start-electron.js --dev"
+  },
+  "author": "Cafetería",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^41.0.3",
+    "sql.js": "^1.14.1"
+  },
+  "devDependencies": {
+    "cross-env": "^10.1.0"
+  }
+}
