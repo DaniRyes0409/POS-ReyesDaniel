@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-# Aroma Café - Sistema de Gestión
-=======
-# POS-ReyesDaniel
->>>>>>> c344642515e0ede08a549bdc38630b1719a31579
+# Aroma Café - Sistema de Gestión (POS-ReyesDaniel)
 
 ## Descripción general
 Sistema de gestión integral para la cafetería **Aroma Café**, que incluye Punto de Venta (POS) y panel de administración. Desarrollado de forma nativa para escritorio. Permite gestionar ventas, productos (con modificadores de tamaño, sabor, y tipo de leche), categorías y usuarios con control de acceso basado en roles. Además, cuenta con la capacidad de generar tickets y visualizar reportes métricos de ingresos, egresos y preferencias de productos en el Dashboard.
@@ -85,3 +81,12 @@ Usuarios
 - **Matrícula / ID:** [S23120035 y s23120049]
 - **Materia / Curso:** [Ingeniería de Software]
 >>>>>>> c344642515e0ede08a549bdc38630b1719a31579
+
+```bash
+git add README.md
+git commit -m "Se corrige conflicto y se mejora presentación del README"
+git push
+
+git add .
+git commit -m "Se mejora documentación del sistema"
+git push
